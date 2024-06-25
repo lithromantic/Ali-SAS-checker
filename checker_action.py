@@ -14,7 +14,6 @@ logger = logging.getLogger(__name__)
 
 # 从环境变量中获取阿里云的AccessKey ID和AccessKey Secret
 access_key_id = os.getenv('ACCESS_KEY_ID')
-print(f"id为：{access_key_id}")
 access_key_secret = os.getenv('ACCESS_KEY_SECRET')
 region_id = 'cn-hongkong'  # 例如：'cn-hangzhou'
 alert_rate = 98  # 设置自动关机阀值 98为98%
